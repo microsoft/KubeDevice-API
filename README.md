@@ -1,9 +1,11 @@
 # KubeDevice-API
 
-The KubeDevice-API provides the API to create plugins for use by KubeDevice which is an
+The `KubeDevice-API` provides the API to create plugins for use by KubeDevice which is an
 extensible framework which can be used for inserting devices into Kubernetes containers.
 This can be used in place of the standard Kubernetes Device Plugin architecture when greater 
 flexibility is desired over scheduling and insertion of devices into containers.
+For more information, see the main `KubeDevice` page at:
+[https://github.com/Microsoft/KubeDevice]
 
 # Contributing
 
