@@ -20,7 +20,7 @@ type Device interface {
 	Start() error
 	// UpdateNodeInfo - updates a node info structure by writing capacity, allocatable, used, scorer
 	UpdateNodeInfo(*types.NodeInfo) error
-	// Allocate attempst to allocate the devices
+	// Allocate attempts to allocate the devices
 	// Returns list of Mounts, and list of Devices to use
 	// Returns an error on failure.
 	Allocate(*types.PodInfo, *types.ContainerInfo) ([]Mount, []string, map[string]string, error)
