@@ -1,11 +1,11 @@
 package devicescheduler
 
 import (
-	"github.com/Microsoft/KubeDevice-API/pkg/types"
+	"github.com/microsoft/KubeDevice-API/pkg/types"
 )
 
 type PredicateFailureReason interface {
-GetReason() string
+	GetReason() string
 	GetInfo() (types.ResourceName, int64, int64, int64)
 }
 

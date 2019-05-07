@@ -3,7 +3,7 @@ package device
 import (
 	"plugin"
 
-	"github.com/Microsoft/KubeDevice-API/pkg/types"
+	"github.com/microsoft/KubeDevice-API/pkg/types"
 )
 
 type Mount struct {

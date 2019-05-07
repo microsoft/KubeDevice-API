@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/Microsoft/KubeDevice-API/pkg/kdlog"
-	"github.com/Microsoft/KubeDevice-API/pkg/types"
+	"github.com/microsoft/KubeDevice-API/pkg/kdlog"
+	"github.com/microsoft/KubeDevice-API/pkg/types"
 )
 
 // Logb tells whether to log

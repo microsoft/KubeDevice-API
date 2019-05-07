@@ -5,7 +5,7 @@ extensible framework which can be used for inserting devices into Kubernetes con
 This can be used in place of the standard Kubernetes Device Plugin architecture when greater 
 flexibility is desired over scheduling and insertion of devices into containers.
 For more information, see the main `KubeDevice` page at:
-[https://github.com/Microsoft/KubeDevice]
+[https://github.com/microsoft/KubeDevice]
 
 # Contributing
 

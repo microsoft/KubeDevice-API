@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Microsoft/KubeDevice-API/pkg/types"
-	"github.com/Microsoft/KubeDevice-API/pkg/utils"
+	"github.com/microsoft/KubeDevice-API/pkg/types"
+	"github.com/microsoft/KubeDevice-API/pkg/utils"
 )
 
 // IsGroupResourceName returns true if the resource name has the group resource prefix
